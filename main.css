@@ -1,0 +1,144 @@
+body
+{
+	background: #fff url(http://mybk.googlecode.com/svn/trunk/images/bg.jpg) repeat-x top;
+	font-family: Verdana, Arial,"Trebuchet MS", sans-serif;
+	font-size: 12px;
+	color: #333333;
+	line-height: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+a { color: #0033ff; text-decoration: none; }
+a:visited {color:#0033ff;text-decoration:none;}
+a:hover { color: #ff0066; text-decoration: underline; }
+
+
+hr { display: none; }
+
+pre
+{
+	font-weight: normal;
+	font-size: 1.0em;
+	line-height: 20px;
+	color: #111111;
+}
+
+#wrap
+{
+	/*background: #fff url(http://mybk.googlecode.com/svn/trunk/images/bg.jpg) repeat-x top;	*/
+	width: 960px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#header {height: 100px; }
+#header h1 {
+	font-size: 24px;
+	font-weight: 100;
+	letter-spacing: 0px;
+	padding: 20px 0 0 30px;
+	float: left;
+}
+#header h1 a {
+	text-decoration: none;
+	color: #B7271F;
+}
+#header h1 a:hover {
+	color: #000;
+}
+#header h2 {
+	color: #666;
+	font-size: 17px;
+	font-weight: 100;
+}
+
+.logo { padding: 12px 0 0 30px;	float: left; }
+.logo img { border:0px; }
+.adv { padding: 12px 30px 0 30px; float: right; }
+
+#menu {
+	padding-top: 9px;
+	height: 30px;
+	line-height: 30px;
+}
+#menu ul {
+	padding-left: 2px;
+	list-style-type: none;
+	display: inline;
+}
+#menu ul li {
+	display: inline;
+	float: left;
+	position: relative;
+}
+#menu ul li a {
+	color: #fff;
+	padding: 7px 10px;
+	text-decoration: none;
+	font-weight: 600;
+}
+#menu ul li a:hover { background-color: #FF0066; }
+
+#content { margin: 20px 0; line-height: 18px; padding : 0 10px; }
+#content h2 { text-shadow:2px 2px #DDDDDD; color: #000000; font-size: 1.6em;	letter-spacing: 0px; font-weight: normal; padding : 6px 0; }
+#content a { color: #0033ff; text-decoration: none; }
+#content a:hover { color: #ff0066; }
+
+.sectionList { padding: 1px; margin: 6px 0; }
+.sectionList a { border: 1px solid #ccc; background: #fff; text-decoration: none; padding: 0 8px; }
+.sectionList a:hover { border: 1px solid #888; background: #eee;}
+.sectionList .current { border: 1px solid #ccc; background: #ccc; text-decoration: none; padding: 0 8px; }
+
+.left {
+	float: left; 
+	width: 640px;
+	text-align: justify;
+}
+
+.right {
+	float: right;
+	width: 300px;
+	background-color: #FFF;
+	margin-top: 30px;
+	padding: 4px;
+}
+
+#side {
+	margin: 10px;
+	padding: 6px;
+	background: #FFF;
+	line-height: 1.8em;
+	text-align: left;
+}
+#side h2 { color: #333; font-size: 1.3em; font-weight: bold; padding : 6px 0; }
+
+#side ul li {
+	color: #ff0066;
+	list-style-type: square;
+	list-style-image: url(http://mybk.googlecode.com/svn/trunk/images/player_fwd.png);
+	padding: 4px 0;
+}
+#side ul li a {
+	vertical-align: top;
+	font-size: 1.1em;
+}
+#side ul li a:hover {
+	text-decoration: underline;
+}
+
+.clear { clear: both; overflow:hidden; }
+
+#footer
+{
+	font-size: 12px;
+	color: #999;
+	text-align: center;
+	padding: 15px 0 20px 0;
+	border-top: 1px dotted #ddd;
+	
+}
+#footer a { color: #999; }
+#footer a:hover { color: #333; text-decoration: underline; }
+
+.copyright { color: #000; }
