@@ -1,6 +1,6 @@
 body
 {
-	background: #fff url(http://mybk.googlecode.com/svn/trunk/images/bg.jpg) repeat-x top;
+	background: #fff url(images/bg.jpg) repeat-x top;
 	font-family: Verdana, Arial,"Trebuchet MS", sans-serif;
 	font-size: 12px;
 	color: #333333;
@@ -26,13 +26,13 @@ pre
 
 #wrap
 {
-	/*background: #fff url(http://mybk.googlecode.com/svn/trunk/images/bg.jpg) repeat-x top;	*/
+	/*background: #fff url(images/bg.jpg) repeat-x top;	*/
 	width: 960px;
 	margin: 0 auto;
 	padding: 0px;
 }
 
-#header {height: 100px; }
+#header {height: 91px; }
 #header h1 {
 	font-size: 24px;
 	font-weight: 100;
@@ -116,7 +116,7 @@ pre
 #side ul li {
 	color: #ff0066;
 	list-style-type: square;
-	list-style-image: url(http://mybk.googlecode.com/svn/trunk/images/player_fwd.png);
+	list-style-image: url(images/player_fwd.png);
 	padding: 4px 0;
 }
 #side ul li a {
